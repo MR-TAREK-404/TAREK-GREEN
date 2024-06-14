@@ -4,6 +4,6 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import FILE_RANDOM_64
+    import MR_TAREK_BIT_64
 elif bit == '32bit':
     import FILE_RANDOM_32
