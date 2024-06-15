@@ -4,6 +4,6 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import MR_TAREK_BIT_64
+    import GREEN_64
 elif bit == '32bit':
-    import MR_TAREK_BIT_32
+    import GREEN_32
