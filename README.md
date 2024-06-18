@@ -1,12 +1,11 @@
-THIS IS RANDOM & FILE CLONE TOOL
 #rm -rf TAREK-GREEN
 
-git clone --depth=1 https://github.com/MR-TAREK-404/TAREK-GREEN
+#git clone --depth=1 https://github.com/MR-TAREK-404/TAREK-GREEN
 
-cd TAREK-GREEN
+#cd TAREK-GREEN
 
-chmod +x *
+#chmod +x *
 
-git pull
+#git pull
 
-python TAREK-GREEN.py#
+#python TAREK-GREEN.py#
