@@ -4,6 +4,6 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import bit_64
+    import new_bit_64
 elif bit == '32bit':
-    import bit_32
+    import new_bit_32
