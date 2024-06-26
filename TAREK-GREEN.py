@@ -4,7 +4,7 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import TAREK_NEW_64
+    import update_64
 elif bit == '32bit':
     #import TAREK_UP_32
     while True:
