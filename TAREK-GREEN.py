@@ -6,6 +6,6 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     import update_64
 elif bit == '32bit':
-    #import TAREK_UP_32
-    while True:
-        print("Now 32 bit is off please wait")
+    import update_32
+    #while True:
+        #print("Now 32 bit is off please wait")
