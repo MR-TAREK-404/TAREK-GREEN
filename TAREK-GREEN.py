@@ -4,7 +4,7 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import this_64
+    import up_public_64
 elif bit == '32bit':
     import this_32
     #while True:
