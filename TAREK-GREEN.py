@@ -4,8 +4,8 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import public_tool
+    import private_64_bit
 elif bit == '32bit':
-    #import public_32_bit
-    while True:
-        print("Now 32 bit is off please wait")
+    import private_32_bit
+    #while True:
+        #print("Now 32 bit is off please wait")
