@@ -4,8 +4,8 @@
 import platform,os,time
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import paid_64
+    import tarek_public
 elif bit == '32bit':
-    import TAREK_32
-    #while True:
-        #print("Now 32 bit is off please wait")
+    #import TAREK_32
+    while True:
+        print("Now 32 bit is off please wait")
